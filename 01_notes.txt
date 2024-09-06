@@ -1,0 +1,20 @@
+1. Arrays are of two types
+    1. Uni-Directionl array 
+    2. Multi-Directionl array
+
+Multi Directionl array consists of 2D,3D, and so on array.
+
+2. 2D-Array : It consists of 2 dimensioanl array one is row and another is column.
+3. Syntax : int arr[row][column]; // Note 2D arrays follows the zero biased indexing and it follows the index starts from zero.
+4. eg : int a[3][2] i.e means there are 3 rows and 2 columns.
+5. Initializing : int arr[2][3] = {1,2,3,4,5,6} or arr[2][3] = {{1,2,3},{4,5,6}};
+6. No. of elements present inisde the multi array is = row*column
+7. Why multiDimensional arrays are important ?
+    a) They are representing grids or matrixes.
+    b) Faster Access and easy to access as compared to unidirectional array.
+    c) Predefinded size
+
+8. 2D vector : vector of vectors datatype
+9. Syntax : vector<vector<data_type>>vector_name;
+10. eg: vector<vector<int>>M(row,vector<int>column); // 2d vector of size row x column.
+11. If we have to iniatilize the vector with 3x4 and and we write all the values as zero. then vector<vector<int>>V(3,vector<int>(4,0));
